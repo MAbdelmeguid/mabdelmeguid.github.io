@@ -4,6 +4,8 @@ title: "Tsunami-gensis"
 permalink: /tsunami/
 ---
 
+### Anatomy of Strike-slip Fault Tsunami-gensis
+
 Strike slip faults are usually under-rated for tsunami hazard (except with landslides). We show this omission may be dangerous, especially for faults traversing bays. Key? "Horizontal displacements". So, what did we do? 
 
 We integrate models for earthquake rupture dynamics with models of tsunami generation and propagation. The three dimensional time dependent vertical and horizontal ground motions from spontaneous dynamic rupture models are used to drive boundary motions in the tsunami model
