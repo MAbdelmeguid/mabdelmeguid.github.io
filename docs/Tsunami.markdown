@@ -31,11 +31,20 @@ Studying the evolution of the tsunami reveals three distinct phases: (1) A dynam
 
 3. The post-seismic, tsunami is much slower and propagate on the scale of tens of seconds to several minutes. It is driven by gravity and is prone to reflection and refraction by the bay geometry.
 
-Strike slip faults generate vertical displacements, which are not negligible, especially in the supershear case, but they are also generally not large enough to generate a considerable tsunami. The horizontal displacements, however, may be significant! As the rupture propagates, it pushes and pulls the bathymetry on both sides leading to vertical rise and subsudence of the sea surface and water waves that can be substantially amplified by depth reduction. It is the focusing effect associated with strike slip faults and  the large horizontal displacements that can generate several meters high water waves. Furthermore, there is a fascinating diffraction effect that occur at the apex of the bay and may contribute to further amplification.
+
+
+<img src="/assets/figures/Fig_7.png" alt="drawing" width="400" height="420" />{: style="float: right"}
+
+Strike slip faults generate vertical displacements, which are not negligible, especially in the supershear case, but they are also generally not large enough to generate a considerable tsunami. The horizontal displacements, however, may be significant! As the rupture propagates, it pushes and pulls the bathymetry on both sides leading to vertical rise and subsudence of the sea surface and water waves that can be substantially amplified by depth reduction. It is the focusing effect associated with strike slip faults and  the large horizontal displacements that can generate several meters high water waves. Furthermore, there is a fascinating reflection effect that occur at the apex of the bay and may contribute to further amplification.
+
 
 
 The details of rupture propagation matter. Supershear ruptures may be capable of generating larger tsunamis than sub-Rayleigh ruptures for the same rupture area and nucleation procedure.
 
+<img src="/assets/figures/Fig_5.png" alt="drawing" width="400" height="800" />{: style="float: center"}
 
+
+
+<img src="/assets/figures/Fig_6.png" alt="drawing" width="400" height="400" />{: style="float: right"}
 Consideration of the vertical displacement only, or a flat ocean floor with constant depth, suggest that the tsunami generation potential is negligible. Accounting for the horizontal displacements with topography lead to interesting wave patterns that may reach few meters high.
 
