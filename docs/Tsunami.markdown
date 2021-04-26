@@ -15,11 +15,21 @@ To neutralize the effects of complex fault geometry or complex bathymetry we sim
 #### We used Pylith for the 3D rupture modeling.
 ![Earthquake](/assets/figures/Fig_1.png){:class="img-responsive"}
 
+On the fault plane, the rupture nucleates at depth within an overstressed region. It subsequently expands to reach the surface and propagates at supershear speeds after saturating the seismogenic zone.
+
+<video width="680" height="320" controls="controls">
+  <source src="/assets/videos/FaultAmp2-1.mp4" type="video/mp4">
+</video> 
+
+On the seafloor, shear shock wave fronts (Mach cones) emerge and sharpen, extending away from the fault with little attenuation, as the rupture continues to propagate. 
+<video width="680" height="320" controls="controls">
+  <source src="/assets/videos/FaultAmp4.mp4" type="video/mp4">
+</video>  
 
 #### We developed SWIM, within MOOSE
 an in-house implicit FE solver for the 2D nonlinear shallow water wave equation.
 
-<video width="680" height="320" controls="controls">
+<video width="680" height="220" controls="controls">
   <source src="/assets/videos/Media1.mp4" type="video/mp4">
 </video> 
 
@@ -39,12 +49,11 @@ Strike slip faults generate vertical displacements, which are not negligible, es
 
 
 
-The details of rupture propagation matter. Supershear ruptures may be capable of generating larger tsunamis than sub-Rayleigh ruptures for the same rupture area and nucleation procedure.
+ __The details of rupture propagation matter.__ Supershear ruptures may be capable of generating larger tsunamis than sub-Rayleigh ruptures for the same rupture area and nucleation procedure.
 
-<img src="/assets/figures/Fig_5.png" alt="drawing" width="400" height="800" />{: style="float: center"}
+<div style="text-align: center"><img src="/assets/figures/Fig8.png" width="500" height="500" /></div>
 
 
 
-<img src="/assets/figures/Fig_6.png" alt="drawing" width="400" height="400" />{: style="float: right"}
 Consideration of the vertical displacement only, or a flat ocean floor with constant depth, suggest that the tsunami generation potential is negligible. Accounting for the horizontal displacements with topography lead to interesting wave patterns that may reach few meters high.
-
+<div style="text-align: center"><img src="/assets/figures/Fig_6.png" alt="drawing" width="650" height="250" /></div>
