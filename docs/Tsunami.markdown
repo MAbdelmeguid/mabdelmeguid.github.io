@@ -35,18 +35,22 @@ an in-house implicit FE solver for the 2D nonlinear shallow water wave equation.
 
 Studying the evolution of the tsunami reveals three distinct phases: (1) A dynamic instantaneous phase, (2) A co-seismic phase, and (3) A post-seismic phase.
 
+<img src="/assets/figures/Picture11.png" width="500" height="500" />{: style="float: right"}
+
 1. The instantaneous dynamic tsunami phase occurs on the scale of few seconds in which the water surface is directly and almost instateneously drove by the coseismic motion of the sea floor, even at large distances from the fault line in the superstar case due to the shock waves.
 
 2. The coseismic tsunami phase is initiated by the dynamic seafloor motion but propagate much slower than the dynamic one, due to the diminishing effect of time dependent sea floor motion as the rupture zips along the fault plane.
 
+
+
 3. The post-seismic, tsunami is much slower and propagate on the scale of tens of seconds to several minutes. It is driven by gravity and is prone to reflection and refraction by the bay geometry.
 
+<div style="text-align: center"><img src="/assets/figures/Picture12.png" width="350" height="350" /></div>
 
 
-<img src="/assets/figures/Fig_7.png" alt="drawing" width="400" height="420" />{: style="float: right"}
+Strike slip faults generate vertical displacements, which are not negligible, especially in the supershear case, but they are also generally not large enough to generate a considerable tsunami. **The horizontal displacements, however, may be significant!  As the rupture propagates, it pushes and pulls the bathymetry on both sides leading to vertical rise and subsudence of the sea surface and water waves that can be substantially amplified by depth reduction.**   It is the focusing effect associated with strike slip faults and  the large horizontal displacements that can generate several meters high water waves. Furthermore, there is a fascinating reflection effect that occur at the apex of the bay and may contribute to further amplification.
 
-Strike slip faults generate vertical displacements, which are not negligible, especially in the supershear case, but they are also generally not large enough to generate a considerable tsunami. The horizontal displacements, however, may be significant! As the rupture propagates, it pushes and pulls the bathymetry on both sides leading to vertical rise and subsudence of the sea surface and water waves that can be substantially amplified by depth reduction. It is the focusing effect associated with strike slip faults and  the large horizontal displacements that can generate several meters high water waves. Furthermore, there is a fascinating reflection effect that occur at the apex of the bay and may contribute to further amplification.
-
+<div style="text-align: center"><img src="/assets/figures/gif1.gif" width="500" height="250" /></div>
 
 
  __The details of rupture propagation matter.__ Supershear ruptures may be capable of generating larger tsunamis than sub-Rayleigh ruptures for the same rupture area and nucleation procedure.
