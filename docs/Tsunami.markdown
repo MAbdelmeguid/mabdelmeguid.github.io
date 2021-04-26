@@ -5,12 +5,22 @@ permalink: /tsunami/
 ---
 
 ### Anatomy of Strike-slip Fault Tsunami-gensis
+##### A. Elbanna, M. Abdelmeguid, X. Ma, F. Amlani, H.S. Bhat, C. Synolakis, A.J. Rosakis
 
-Strike slip faults are usually under-rated for tsunami hazard (except with landslides). We show this omission may be dangerous, especially for faults traversing bays. Key? "Horizontal displacements". So, what did we do? 
+Strike slip faults are usually under-rated for tsunami hazard, except possibly for potential tsunami generation by undersea landslides that may be triggered by the earthquake’s strong ground motion. In our recent paper we show that the omission of intrinsic hazard related to strike slip faulting may be dangerous, especially for faults traversing bays. 
 
-We integrate models for earthquake rupture dynamics with models of tsunami generation and propagation. The three dimensional time dependent vertical and horizontal ground motions from spontaneous dynamic rupture models are used to drive boundary motions in the tsunami model
+Key?  **“Horizontal displacements”**. 
 
-To neutralize the effects of complex fault geometry or complex bathymetry we simulated a planar fault in a bay with a bath tub like geometry
+<video width="680" height="300" controls="controls">
+  <source src="/assets/videos/WaterAmp2.mp4" type="video/mp4">
+</video> 
+
+#### So, what did we do?
+
+We integrate models for earthquake rupture dynamics with models of tsunami generation and propagation. The three-dimensional time dependent vertical and horizontal ground motions from spontaneous dynamic rupture models are used to drive boundary motions in the tsunami model
+
+To neutralize the effects of complex fault geometry or complex bathymetry we simulated a planar fault in a bay with a bathtub like geometry
+
 
 #### We used Pylith for the 3D rupture modeling.
 ![Earthquake](/assets/figures/Fig_1.png){:class="img-responsive"}
@@ -27,18 +37,11 @@ On the seafloor, shear shock wave fronts (Mach cones) emerge and sharpen, extend
 </video>  
 
 #### We developed SWIM, within MOOSE
-an in-house implicit FE solver for the 2D nonlinear shallow water wave equation.
+SWIM is an in-house implicit FE solver for the 2D nonlinear shallow water wave equation. We implement SWIM within Multiphysics Object Oriented Simulation Environment (MOOSE) from Idaho National Lab
 
 <video width="680" height="220" controls="controls">
   <source src="/assets/videos/Media1.mp4" type="video/mp4">
 </video> 
-
-#### Combined framework
-
-<video width="680" height="220" controls="controls">
-  <source src="/assets/videos/WaterAmp2.mp4" type="video/mp4">
-</video> 
-
 
 Studying the evolution of the tsunami reveals three distinct phases: (1) A dynamic instantaneous phase, (2) A co-seismic phase, and (3) A post-seismic phase.
 
@@ -62,9 +65,13 @@ Strike slip faults generate vertical displacements, which are not negligible, es
 
  __The details of rupture propagation matter.__ Supershear ruptures may be capable of generating larger tsunamis than sub-Rayleigh ruptures for the same rupture area and nucleation procedure.
 
-<div style="text-align: center"><img src="/assets/figures/Fig8.png" width="500" height="500" /></div>
+<div style="text-align: center"><img src="/assets/figures/Fig8_1.png" width="700" height="450" /></div>
 
 
-
-Consideration of the vertical displacement only, or a flat ocean floor with constant depth, suggest that the tsunami generation potential is negligible. Accounting for the horizontal displacements with topography lead to interesting wave patterns that may reach few meters high.
+Consideration of the vertical displacement only (case 2), or a flat ocean floor with constant depth (case 3), suggest that the tsunami generation potential is negligible. Accounting for the horizontal displacements with topography (case 1) lead to interesting wave patterns that may reach few meters high.
 <div style="text-align: center"><img src="/assets/figures/Fig_6.png" alt="drawing" width="650" height="250" /></div>
+
+
+### Acknowledgment
+
+A.E. acknowledges support by the National Science Foundation (CAREER Award Number 1753249). and A.J.R. acknowledges support by the Caltech/MCE Big Ideas Fund (BIF), as well as the Caltech Terrestrial Hazard Observation and Reporting Center (THOR). This research is part of the Blue Waters sustained-petascale computing project, which is supported by the National Science Foundation (awards OCI-0725070 and ACI-1238993) the State of Illinois, and as of December, 2019, the National Geospatial-Intelligence Agency. Blue Waters is a joint effort of the University of Illinois at Urbana-Champaign and its National Center for Supercomputing Applications. H. S. B. would like to acknowledge ERC Consolidator Grant PERSISMO a#865411) for financial support. C.E.S thanks the National Science Foundation for Award Number 1906162, Field Survey of the 27 September 2018 Sulawesi Tsunami.
