@@ -21,6 +21,7 @@ We integrate models for earthquake rupture dynamics with models of tsunami gener
 
 To neutralize the effects of complex fault geometry or complex bathymetry we simulated a planar fault in a bay with a bathtub like geometry
 
+<div style="text-align: center"><img src="/assets/figures/Fig9_1.png" width="600" height="250" /></div>
 
 #### We used Pylith for the 3D rupture modeling.
 ![Earthquake](/assets/figures/Fig_1.png){:class="img-responsive"}
