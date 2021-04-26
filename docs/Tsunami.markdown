@@ -33,6 +33,13 @@ an in-house implicit FE solver for the 2D nonlinear shallow water wave equation.
   <source src="/assets/videos/Media1.mp4" type="video/mp4">
 </video> 
 
+#### Combined framework
+
+<video width="680" height="220" controls="controls">
+  <source src="/assets/videos/WaterAmp2.mp4" type="video/mp4">
+</video> 
+
+
 Studying the evolution of the tsunami reveals three distinct phases: (1) A dynamic instantaneous phase, (2) A co-seismic phase, and (3) A post-seismic phase.
 
 <img src="/assets/figures/Picture11.png" width="500" height="500" />{: style="float: right"}
