@@ -6,14 +6,13 @@ permalink: /tsunami/
 
 ### Anatomy of Strike-slip Fault Tsunami-gensis
 ##### A. Elbanna, M. Abdelmeguid, X. Ma, F. Amlani, H.S. Bhat, C. Synolakis, A.J. Rosakis
+<https://doi.org/10.31223/X57G72>
 
 Strike slip faults are usually under-rated for tsunami hazard, except possibly for potential tsunami generation by undersea landslides that may be triggered by the earthquake’s strong ground motion. In our recent paper we show that the omission of intrinsic hazard related to strike slip faulting may be dangerous, especially for faults traversing bays. 
 
 Key?  **“Horizontal displacements”**. 
 
-<video width="680" height="300" controls="controls">
-  <source src="/assets/videos/WaterAmp2.mp4" type="video/mp4">
-</video> 
+<div style="text-align: center"><img src="/assets/figures/gif3.gif" width="700" height="250" /></div>
 
 #### So, what did we do?
 
@@ -21,28 +20,22 @@ We integrate models for earthquake rupture dynamics with models of tsunami gener
 
 To neutralize the effects of complex fault geometry or complex bathymetry we simulated a planar fault in a bay with a bathtub like geometry
 
-<div style="text-align: center"><img src="/assets/figures/Fig9_1.png" width="600" height="250" /></div>
+<div style="text-align: center"><img src="/assets/figures/Fig9_1.png" width="500" height="200" /></div>
 
 #### We used Pylith for the 3D rupture modeling.
 ![Earthquake](/assets/figures/Fig_1.png){:class="img-responsive"}
 
 On the fault plane, the rupture nucleates at depth within an overstressed region. It subsequently expands to reach the surface and propagates at supershear speeds after saturating the seismogenic zone.
 
-<video width="680" height="320" controls="controls">
-  <source src="/assets/videos/FaultAmp2-1.mp4" type="video/mp4">
-</video> 
+<div style="text-align: center"><img src="/assets/figures/gif2.gif" width="600" height="200" /></div>
 
 On the seafloor, shear shock wave fronts (Mach cones) emerge and sharpen, extending away from the fault with little attenuation, as the rupture continues to propagate. 
-<video width="680" height="320" controls="controls">
-  <source src="/assets/videos/FaultAmp4.mp4" type="video/mp4">
-</video>  
+<div style="text-align: center"><img src="/assets/figures/gif4.gif" width="600" height="200" /></div>
 
 #### We developed SWIM, within MOOSE
 SWIM is an in-house implicit FE solver for the 2D nonlinear shallow water wave equation. We implement SWIM within Multiphysics Object Oriented Simulation Environment (MOOSE) from Idaho National Lab
 
-<video width="680" height="220" controls="controls">
-  <source src="/assets/videos/Media1.mp4" type="video/mp4">
-</video> 
+<div style="text-align: center"><img src="/assets/figures/gif5.gif" width="600" height="200" /></div>
 
 Studying the evolution of the tsunami reveals three distinct phases: (1) A dynamic instantaneous phase, (2) A co-seismic phase, and (3) A post-seismic phase.
 
@@ -56,12 +49,12 @@ Studying the evolution of the tsunami reveals three distinct phases: (1) A dynam
 
 3. The post-seismic, tsunami is much slower and propagate on the scale of tens of seconds to several minutes. It is driven by gravity and is prone to reflection and refraction by the bay geometry.
 
-<div style="text-align: center"><img src="/assets/figures/Picture12.png" width="350" height="350" /></div>
+<div style="text-align: center"><img src="/assets/figures/Picture12.png" width="450" height="450" /></div>
 
 
 Strike slip faults generate vertical displacements, which are not negligible, especially in the supershear case, but they are also generally not large enough to generate a considerable tsunami. **The horizontal displacements, however, may be significant!  As the rupture propagates, it pushes and pulls the bathymetry on both sides leading to vertical rise and subsudence of the sea surface and water waves that can be substantially amplified by depth reduction.**   It is the focusing effect associated with strike slip faults and  the large horizontal displacements that can generate several meters high water waves. Furthermore, there is a fascinating reflection effect that occur at the apex of the bay and may contribute to further amplification.
 
-<div style="text-align: center"><img src="/assets/figures/gif1.gif" width="500" height="250" /></div>
+<div style="text-align: center"><img src="/assets/figures/gif6.gif" width="500" height="250" /></div>
 
 
  __The details of rupture propagation matter.__ Supershear ruptures may be capable of generating larger tsunamis than sub-Rayleigh ruptures for the same rupture area and nucleation procedure.
