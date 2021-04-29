@@ -8,7 +8,15 @@ permalink: /tsunami/
 ##### A. Elbanna, M. Abdelmeguid, X. Ma, F. Amlani, H.S. Bhat, C. Synolakis, A.J. Rosakis
 <https://doi.org/10.31223/X57G72>
 
-Strike slip faults are usually under-rated for tsunami hazard, except possibly for potential tsunami generation by undersea landslides that may be triggered by the earthquake’s strong ground motion. In our recent paper we show that the omission of intrinsic hazard related to strike slip faulting may be dangerous, especially for faults traversing bays. 
+Even though a small fraction of all tsunamis studied thus far are believed to be triggered by strike-slip motion, the devastating humanitarian impact warrants further investigation into this particular mechanism for tsunami-genesis.
+
+<video width="680" height="320" controls="controls">
+  <source src="/assets/videos/Palu_Damage.mp4" type="video/mp4">
+</video> 
+<div style="text-align: center"><em>Example of the damage caused by an unexpected localized tsunami induced by the September 2018 Mw 7.5 Sulawesi earthquake that occurred on the Palu-Koro (P-K) strike-slip fault system (Courtesy of Prof. Synoloakis, USC).</em></div>
+<p></p>
+
+However, strike slip faults are usually under-rated for tsunami hazard, except possibly for potential tsunami generation by undersea landslides that may be triggered by the earthquake’s strong ground motion. In our recent paper we show that the omission of intrinsic hazard related to strike slip faulting may be dangerous, especially for faults traversing bays. 
 
 Key?  **“Horizontal displacements”**. 
 
@@ -68,6 +76,10 @@ Strike slip faults generate vertical displacements, which are not negligible, es
 <div style="text-align: center"> <em>Role of horizontal displacement in generating surface waves.</em></div>
 <p></p>
 
+The strike-slip motion result in a the lack of perfect asymmetry in which the particle velocity varies at the lateral sides of the bay. The lack of perfect antisymmetry is explained by the symmetric nature of the strike-normal seafloor horizontal displacement, whilst the other two components of seafloor displacement are antisymmetric. This is consistent with the field observations.
+<div style="text-align: center"><img src="/assets/figures/Picture23.png" width="500" height="450" /></div>
+<div style="text-align: center"> <em>Snapshots of the in-plane water particle velocity vectors.</em></div>
+<p></p>
 
  __The details of rupture propagation matter.__ Supershear ruptures may be capable of generating larger tsunamis than sub-Rayleigh ruptures for the same rupture area and nucleation procedure. The scaling of the water level by average slip shows that difference in slip between supershear and sub-Rayleigh does not completely explain the difference in the changes in the water level profile as a function of time, nor the amplitude difference.
 
@@ -80,13 +92,6 @@ Consideration of the vertical displacement only (case 2), or a flat ocean floor 
 <div style="text-align: center"><em>The effect of including the horizontal motion on a basin bathymetry for a bay traversed by a supershear rupture.</em></div>
 <p></p>
 
-### Devastating tsunamis
-Even though a small fraction of all tsunamis studied thus far are believed to be triggered by strike-slip motion, the devastating humanitarian impact warrants further investigation into this particular mechanism for tsunami-genesis.
-
-<video width="680" height="320" controls="controls">
-  <source src="/assets/videos/Palu_Damage.mp4" type="video/mp4">
-</video> 
-<div style="text-align: center"><em>Example of the damage caused by an unexpected localized tsunami induced by the September 2018 Mw 7.5 Sulawesi earthquake that occurred on the Palu-Koro (P-K) strike-slip fault system (Courtesy of Prof. Synoloakis, USC).</em></div>
 
 ### Acknowledgment
 
