@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Tsunami-gensis"
+title: "Tsunami Gensis"
 permalink: /tsunami/
 ---
 
-### Anatomy of Strike-slip Fault Tsunami-gensis
+### Anatomy of Strike-slip Fault Tsunami Gensis
 ##### A. Elbanna, M. Abdelmeguid, X. Ma, F. Amlani, H.S. Bhat, C. Synolakis, A.J. Rosakis
 <https://doi.org/10.31223/X57G72>
 
@@ -60,7 +60,7 @@ Studying the evolution of the tsunami reveals three distinct phases: (1) A dynam
 <p></p>
 
 
-1. The instantaneous dynamic tsunami phase occurs on the scale of few seconds in which the water surface is directly and almost instateneously drove by the coseismic motion of the sea floor, even at large distances from the fault line in the superstar case due to the shock waves.
+1. The instantaneous dynamic tsunami phase occurs on the scale of few seconds in which the water surface is directly and almost instantaneously drove by the coseismic motion of the sea floor, even at large distances from the fault line in the superstar case due to the shock waves.
 
 2. The coseismic tsunami phase is initiated by the dynamic seafloor motion but propagate much slower than the dynamic one, due to the diminishing effect of time dependent sea floor motion as the rupture zips along the fault plane.
 
@@ -76,7 +76,7 @@ Strike slip faults generate vertical displacements, which are not negligible, es
 <div style="text-align: center"> <em>Role of horizontal displacement in generating surface waves.</em></div>
 <p></p>
 
-The strike-slip motion result in a the lack of perfect asymmetry in which the particle velocity varies at the lateral sides of the bay. The lack of perfect antisymmetry is explained by the symmetric nature of the strike-normal seafloor horizontal displacement, whilst the other two components of seafloor displacement are antisymmetric. This is consistent with the field observations.
+The strike-slip motion result in a lack of perfect asymmetry in which the particle velocity varies at the lateral sides of the bay. The lack of perfect antisymmetry is explained by the symmetric nature of the strike-normal seafloor horizontal displacement, whilst the other two components of seafloor displacement are antisymmetric. This is consistent with the field observations.
 <div style="text-align: center"><img src="/assets/figures/Picture23.png" width="500" height="450" /></div>
 <div style="text-align: center"> <em>Snapshots of the in-plane water particle velocity vectors.</em></div>
 <p></p>
