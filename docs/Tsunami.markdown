@@ -60,7 +60,7 @@ Studying the evolution of the tsunami reveals three distinct phases: (1) A dynam
 <p></p>
 
 
-1. The instantaneous dynamic tsunami phase occurs on the scale of few seconds in which the water surface is directly and almost instantaneously drove by the coseismic motion of the sea floor, even at large distances from the fault line in the superstar case due to the shock waves.
+1. The instantaneous dynamic tsunami phase occurs on the scale of few seconds in which the water surface is directly and almost instantaneously driven by the coseismic motion of the sea floor, even at large distances from the fault line in the superstar case due to the shock waves.
 
 2. The coseismic tsunami phase is initiated by the dynamic seafloor motion but propagate much slower than the dynamic one, due to the diminishing effect of time dependent sea floor motion as the rupture zips along the fault plane.
 
