@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Tsunamigensis"
+title: "Tsunamigenesis"
 permalink: /tsunami/
 ---
 
-### Anatomy of Strike-slip Fault Tsunami Gensis
+### Anatomy of Strike-slip Fault Tsunami Genesis
 ##### A. Elbanna, M. Abdelmeguid, X. Ma, F. Amlani, H.S. Bhat, C. Synolakis, A.J. Rosakis
 <https://doi.org/10.31223/X57G72>
 
