@@ -6,7 +6,7 @@ permalink: /tsunami/
 
 ### Anatomy of Strike-slip Fault Tsunami Genesis
 ##### A. Elbanna, M. Abdelmeguid, X. Ma, F. Amlani, H.S. Bhat, C. Synolakis, A.J. Rosakis
-<https://doi.org/10.31223/X57G72>
+<https://doi.org/10.1073/pnas.2025632118>
 
 Even though a small fraction of all tsunamis studied thus far are believed to be triggered by strike-slip motion, the devastating humanitarian impact warrants further investigation into this particular mechanism for tsunamigenesis.
 
