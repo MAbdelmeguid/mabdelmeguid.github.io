@@ -1,1 +1,41 @@
-theme: jekyll-theme-minimal
+# Site settings
+
+# NB! Set your site's url, otherwise nothing will work
+url: "https://mabdelmeguid.github.io/meguid"
+font: Sans Serif
+
+# Google tracking id
+google-tracking-id: "UA-XXXXXXXX-X"
+
+#############
+# HTML Head #
+#############
+lang: "en"
+author: "Mohamed Abdelmeguid"
+title: "Mohamed Abdelmeguid "
+
+# Build settings
+theme: minima
+
+
+# Sections shown in the index page
+pages_list:
+  Research: "research"
+  CV: "cv"
+  Publications: "publications"
+  Contact: "contact"
+# Exclusion list from the generated _site
+exclude:
+  - LICENSE
+  - README.md
+  - CONTRIBUTING
+  - CONTRIBUTORS
+  - scripts
+  - Dockerfile
+  - docker-compose.yml
+  - 404.html
+  
+# Pagination path
+
+plugins:
+  - jekyll-feed
