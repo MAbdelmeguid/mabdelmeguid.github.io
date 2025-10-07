@@ -5,64 +5,261 @@
 layout: home
 ---
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/IMG_2963.jpeg" alt="Image description" width="300" height="300">
-</div>
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-<br><br>
-
-Welcome! My name is Mohamed Abdelmeguid, I am currently a Postdoctoral Scholar at Caltech GALCIT. I obtained my PhD from the Department of Civil and Environmental Engineering at the University of Illinois Urbana Champaign. My research focuses on utilizing experimental, theoretical, and computational mechanics to study dynamic failure and wave propagation during frictional sliding. My interests span a wide range of topics, including multi-physics and multi-scale modeling, fault zone physics, experimental analysis of dynamic fracture, wave propagation in solids, computational fluid dynamics, and structural analysis. The objective of my work is to develop physics-based models to understand the intricacies of dynamic failure within natural and engineered systems. Currently, my work has applications in geophysics, seismology, and structural engineering.
-
-<br><br>
-
-<strong>Education:</strong>
-<br>
-- PhD, Civil and Environmental Engineering, University of Illinois Urbana Champaign, 2022
-<br>
-- MS, Civil and Environmental Engineering, University of Illinois Urbana Champaign, 2017
-<br>
-- BS, Mechanical Engineering, British University in Egypt, 2013
-
-<br><br>
-
-<strong>CV:</strong>
-<br>
-<a href="{{ '/assets/cv.pdf' | relative_url }}" target="_blank" class="cv-button" style="
-    display: inline-block;
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .hero-section {
+    background: #f8f9fa;
     padding: 10px 20px;
-    background-color: #2a7ae2;
+    margin: -20px -20px 50px -20px;
+    border-bottom: 1px solid #e9ecef;
+  }
+  .hero-title {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  .hero-subtitle {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 1.2em;
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+  .section {
+    background: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: none;
+    box-shadow: none;
+  }
+  .section h3 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #212529;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.4em;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .section p {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 400;
+    color: #495057;
+    margin-bottom: 16px;
+  }
+  .section strong {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+  }
+  .cv-button {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #212529;
     color: white;
+    transition: all 0.2s ease;
+    border: 1px solid #212529;
+    font-weight: 500;
+  }
+  .cv-button:hover {
+    background: #495057;
+    border-color: #495057;
+  }
+  .news-item {
+    background: #f8f9fa;
+    padding: 16px;
+    margin: 12px 0;
+    border: none;
+    border-left: 3px solid #dee2e6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  .news-item strong {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+  }
+  .profile-image {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .education-card {
+    background: #f8f9fa;
+    padding: 16px;
+    border: none;
+    border-left: 3px solid #dee2e6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  .education-card strong {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+  }
+  .contact-section {
+    background: #f8f9fa;
+    color: #212529;
+    border: none;
+    border-top: 1px solid #dee2e6;
+  }
+  .contact-section h3 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #212529;
+    border-bottom: none;
+  }
+  .contact-section p {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 400;
+  }
+  .email-button {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #212529;
+    color: white;
+    border: 1px solid #212529;
+    transition: all 0.2s ease;
+    font-weight: 500;
+  }
+  .email-button:hover {
+    background: #495057;
+    border-color: #495057;
+  }
+  .social-link {
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
     text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: background-color 0.3s;">
-    Download CV
-</a>
-
-<br><br>
-
-<strong>News:</strong>
-<br>
-<ul>
-  <li>Work on ground motion characteristics in the presence of sediment layers published in <i>Journal of Geophysical International</i> Link: <a href="https://academic.oup.com/gji/article/240/2/967/7911852">open access link</a></li>
-</ul>
-
-
+    color: #495057;
+  }
+  .social-link:hover {
+    background: #212529;
+    color: white;
+    border-color: #212529;
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+</style>
 
 
-<br><br>
-This website is work in progress and will be updated with more content soon. In the meantime, feel free to email me at <a href="mailto:meguid@caltech.edu">meguid@caltech.edu</a>
+<div style="float: right; margin: 0 0 20px 20px;">
+  <img src="assets/IMG_2963.jpeg" alt="Mohamed Abdelmeguid" width="300" height="300" class="profile-image">
+</div>
 
+<div class="section">
+  <h3>About Me</h3>
+  <p>Welcome! I am a Postdoctoral Scholar at Caltech GALCIT. I obtained my PhD from the Department of Civil and Environmental Engineering at the University of Illinois Urbana Champaign. My research is at the intersection of geophysics and  geomechanics. I utilize computational, experimental, and scientific machine learning methods to understand how microscale subsurface processes and coupled multi-physics interactions govern the initiation and evolution of geohazards and induced seismicity, in order to mitigate hazards and support human activities.</p>
+  <h3>Research Focus</h3>
+  <p>My research aims to decode how microscale subsurface processes affect macroscale geohazards, and subsurface operations to address three core questions related to geohazard prediction:</p>
+  <ol>
+    <li><strong>What determines why and where earthquakes nucleate</strong>, and when they arrest or cascade into a catastrophic event?</li>
+    <li><strong>When do subsurface operations trigger induced seismicity</strong>, and how can we control it to optimize energy extraction and storage?</li>
+    <li><strong>Can SciML accelerate these predictions?</strong></li>
+  </ol>
+  <p>By addressing these questions, we can better mitigate hazards and support human activities toward a sustainable future.</p>
+  
+  <p><strong>So far:</strong> I've developed frameworks to model earthquake sequences and induced seismicity, revealed overlooked risks such as tsunamis from strike-slip faults, and used high-speed laboratory experiments to capture the nucleation of fluid induced instabilities and image rupture dynamics at unprecedented resolution.</p>
+</div>
 
-<div style="display: flex; justify-content: center; gap: 20px; margin-top: 30px;">
-  <a href="https://scholar.google.com/citations?user=SKAon8EAAAAJ&hl=en" target="_blank">
-    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar">
-  </a>
-  <a href="https://www.researchgate.net/profile/Mohamed-Abdelmeguid-4" target="_blank">
-    <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=ResearchGate&logoColor=white" alt="ResearchGate">
-  </a>
-  <a href="https://www.linkedin.com/in/mohamed-abdelmeguid-646b93193/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+<div class="section">
+  <h3>Education</h3>
+  <div style="display: grid; gap: 25px;">
+    <div class="education-card">
+      <strong style="color: #1a237e; font-size: 1.1em;">PhD, Civil and Environmental Engineering</strong><br>
+      <span style="color: #666; font-weight: 500;">University of Illinois Urbana Champaign, 2022</span>
+    </div>
+    <div class="education-card">
+      <strong style="color: #1a237e; font-size: 1.1em;">MS, Civil and Environmental Engineering</strong><br>
+      <span style="color: #666; font-weight: 500;">University of Illinois Urbana Champaign, 2017</span>
+    </div>
+    <div class="education-card">
+      <strong style="color: #1a237e; font-size: 1.1em;">BS, Mechanical Engineering</strong><br>
+      <span style="color: #666; font-weight: 500;">British University in Egypt, 2013</span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Recent News & Publications</h3>
+  <div class="news-item">
+    <strong>🚀 New Preprint:</strong> Check out our recent preprint on using FNO to model dynamic rupture propagation with 10000x speedup! 
+    <a href="https://essopenarchive.org/users/909034/articles/1284813-fourier-neural-operators-for-accelerating-earthquake-dynamic-rupture-simulations" target="_blank" style="color: #3498db; text-decoration: none;">→ Read more</a>
+  </div>
+  <div class="news-item">
+    <strong>📰 Nature Geoscience:</strong> Work on identifying early supershear rupture in the 2023 Kahramanmaraş earthquake published in <i>Nature Geoscience</i>
+    <a href="https://doi.org/10.1038/s41561-025-01707-2" target="_blank" style="color: #3498db; text-decoration: none;">→ Read more</a>
+  </div>
+  <div class="news-item">
+    <strong>📄 Journal of Geophysical Research:</strong> Work on ground motion characteristics in the presence of sediment layers published in <i>Journal of Geophysical International</i>
+    <a href="https://academic.oup.com/gji/article/240/2/967/7911852" target="_blank" style="color: #3498db; text-decoration: none;">→ Read more</a>
+  </div>
+</div>
+
+<div class="section" style="text-align: center;">
+  <h3>Curriculum Vitae</h3>
+  <a href="{{ '/assets/cv.pdf' | relative_url }}" target="_blank" class="cv-button" style="
+      display: inline-block;
+      padding: 15px 30px;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 1.1em;">
+      📄 Download CV
   </a>
 </div>
+
+
+
+
+<!-- <div class="section contact-section" style="text-align: center;">
+  <h3>Get In Touch</h3>
+  <p style="font-size: 1.2em; margin-bottom: 30px; font-weight: 500;">This website is work in progress and will be updated with more content soon. In the meantime, feel free to reach out!</p>
+  <a href="mailto:meguid@caltech.edu" class="email-button" style="
+      display: inline-block;
+      padding: 15px 30px;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 1.1em;
+      margin-bottom: 25px;">
+      📧 meguid@caltech.edu
+  </a>
+</div> -->
+
+<div class="section" style="text-align: center;">
+  <h3>Connect With Me</h3>
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
+    <a href="https://scholar.google.com/citations?user=SKAon8EAAAAJ&hl=en" target="_blank" class="social-link" title="Google Scholar">
+      <svg class="social-icon" viewBox="0 0 24 24">
+        <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+      </svg>
+    </a>
+    
+    <a href="https://www.linkedin.com/in/mohamed-abdelmeguid-646b93193/" target="_blank" class="social-link" title="LinkedIn">
+      <svg class="social-icon" viewBox="0 0 24 24">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
 

@@ -17,6 +17,10 @@ title: "Mohamed Abdelmeguid "
 # Build settings
 theme: minima
 
+# Disable footer
+footer:
+  enabled: false
+
 
 # Sections shown in the index page
 pages_list:

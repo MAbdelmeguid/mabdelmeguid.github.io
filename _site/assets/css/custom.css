@@ -1,0 +1,40 @@
+/* Custom CSS to override Jekyll Minima theme width constraints */
+
+/* Override the wrapper max-width to allow wider content */
+.wrapper {
+  max-width: 1200px !important;
+}
+
+/* Ensure our custom sections can use the full width */
+.section {
+  max-width: 100% !important;
+}
+
+/* Override any theme constraints on the main content area */
+.page-content {
+  max-width: none !important;
+}
+
+/* Ensure the hero section can span full width */
+.hero-section {
+  margin-left: calc(-50vw + 50%) !important;
+  margin-right: calc(-50vw + 50%) !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
+/* Hide the footer only */
+.site-footer,
+footer,
+.footer {
+  display: none !important;
+}
+
+/* Hide footer content */
+.footer-heading,
+.footer-col-wrapper,
+.footer-col,
+.contact-list,
+.social-media-list {
+  display: none !important;
+}

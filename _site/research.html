@@ -30,7 +30,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/contact/">Contact</a><a class="page-link" href="/publications/">Publications</a><a class="page-link" href="/research.html">Research</a></div>
+        <div class="trigger"><a class="page-link" href="/contact/">Contact</a><a class="page-link" href="/cv/">CV</a><a class="page-link" href="/publications/">Publications</a><a class="page-link" href="/research.html">Research</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -42,48 +42,252 @@
   </header>
 
   <div class="post-content">
-    <section>
+    <link rel="stylesheet" href="/assets/css/custom.css">
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  h2 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #212529;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 16px;
+  }
+  
+  h3 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #495057;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    border-left: 3px solid #007bff;
+    padding-left: 15px;
+  }
+  
+  h4 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #6c757d;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: 2px solid #28a745;
+    padding-left: 12px;
+  }
+  
+  p {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 400;
+    color: #495057;
+    margin-bottom: 16px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  figure {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  figcaption {
+    font-style: italic;
+    color: #6c757d;
+    margin-top: 8px;
+    font-size: 0.9em;
+  }
+  
+  /* Figure zoom effect */
+  .zoom-figure {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .zoom-figure:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Layout for figure on the right */
+  .figure-right-layout {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 30px 0;
+  }
+  
+  .figure-right-layout .content {
+    flex: 1;
+  }
+  
+  .figure-right-layout .figure-container {
+    flex-shrink: 0;
+    width: 400px;
+  }
+</style>
+
+<section>
+  <h2>Overview</h2>
+  <div class="figure-right-layout">
+    <div class="content">
+      <p>My research group will seek to couple geomechanics and geophysics to understand geohazards and subsurface processes across lengths and time scales, from mm to km and from quasi-static processes to rapid dynamics, respectively. My research will be grounded by observations that will inform experiments, which will guide high-fidelity modeling.</p>
+    </div>
+    <div class="figure-container">
+      <figure style="text-align: center; margin: 0;">
+        <img src="assets/g6-A.pdf" alt="Mohamed Abdelmeguid" width="300" height="300" class="zoom-figure" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section>
     <h2>Overview</h2>
     <p>Earthquakes and earthquake-induced hazards, such as tsunamis, leave a devastating trail of both humanitarian and economical damages. The overarching theme of my research group will be to understand the important physical mechanisms that govern the occurence of those events within the Earth's crust by developing frameworks for high-throughput computations, theoretical models, experimentation, and eventually integrating machine learning. </p>
-</section>
+
+</section> -->
 
 <section>
-    <h2>FEBE</h2>
-    <p>During my PhD I developed a hybrid approach that couples Finite Element Method with Boundary Element Method, hence the name FEBE, to study long term evolution of fault zones. The implementation is aimed at improving the computational efficiency of large scale earthquake models that are usually intractible while accounting for high resolution fault zone physics such as material heterogenity, inelastic response, and fluid diffusion.  </p>
-   
-        <figure style="margin-top: 30px; text-align: center;">
-        <img src="assets/Picture1.png" alt="FEBE model illustration" width="500" height="250">
-        <figcaption style="margin-top: 10px; font-style: italic;">Figure 1: Illustration of the FEBE (Finite Element-Boundary Element) hybrid model for earthquake simulation.</figcaption>
+    <h2>Earthquake Physics and Mechanics</h2>
+    <div class="figure-right-layout">
+        <div class="content">
+            <p>I focus on studying earthquake mechanics through the lens of multi-physics modeling and laboratory experiments with the goals of: (i) gaining fundamental insights into {stable-to-unstable sliding transitions} while accounting for local nonlinear processes across laboratory and field scales, (ii) developing predictive tools for variable earthquake behaviors by capturing the competition between processes that control the extent of rupture propagation, and (iii) understanding how fault zone and permeability structure evolve over varying time scales from aseismic to coseismic.</p>
+        </div>
+        <div class="figure-container">
+            <figure style="text-align: center; margin: 0;">
+                <img src="assets/Picture1.png" alt="FEBE model illustration" width="400" height="200" class="zoom-figure" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                <figcaption style="margin-top: 10px; font-style: italic; font-size: 0.85em;">FEBE is a framework I developed during my PhD to model earthquake sequences and aseismic slip with high resolution physics.</figcaption>
+            </figure>
+        </div>
+    </div>
+    
+    <h3>High Resolution Fault Zone Physics</h3>
+    <p>Through the development of FEBE we were able to model the evolution of fault zone with high resolution physics based on observations. This includes modeling fault zones with pre-existing, such as low velocity fault zones, and evolving damage, such as plasticity. By incorporating these physical mechanism we are able to better understand the interactions, or what we call coevolution, between surrounding fault zone and principal slip surfaces.</p>
+
+    <h4>Material heterogenity and Damage evolution within fault zones</h4>
+  
+     <div style="display: flex; gap: 30px; justify-content: center; margin: 30px 0;">
+       <figure style="flex: 1; text-align: center; margin: 0;">
+         <img src="assets/damage1.png" alt="Damage evolution 1" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: block; margin: 0 auto;">
+         <figcaption style="margin-top: 12px; font-size: 0.85em; text-align: center;">We model fault zone with evolving damage in fault zone through viscoplasticity (Abdelmeguid and Elbanna, 2022).</figcaption>
+       </figure>
+       <figure style="flex: 1; text-align: center; margin: 0;">
+         <img src="assets/damage3.png" alt="Damage evolution 3" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: block; margin: 0 auto;">
+         <figcaption style="margin-top: 12px; font-size: 0.85em; text-align: center;">Evolved differentfault architecture over sequences of earthquakes (Mia, Abdelmeguid, Harris and Elbanna, 2024).</figcaption>
+       </figure>
+     </div>
+     
+      <h3>Dynamics of delayed triggering</h3>
+      <p>I am experimentally studying the role of fault branches as stress barriers that can delay the onset of rupture propagation.</p>
+      <div style="display: flex; gap: 30px; justify-content: center; margin: 30px 0; align-items: flex-start;">
+        <figure style="flex: 1; text-align: center; margin: 0;">
+          <img src="assets/specimen-2.png" alt="Fault branch specimen" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: block; margin: 0 auto;">
+          <figcaption style="margin-top: 12px; font-size: 0.85em; text-align: center;">Laboratory specimen showing fault branch geometry and instrumentation setup.</figcaption>
         </figure>
-</section>
+        <figure style="flex: 1; text-align: center; margin: 0;">
+          <video style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" controls>
+            <source src="assets/velocity_field.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <figcaption style="margin-top: 12px; font-size: 0.85em; text-align: center;">Velocity field evolution showing delayed triggering along fault branches (Abdelmeguid and Rosakis, under prep 2025).</figcaption>
+        </figure>
+        <figure style="flex: 1; text-align: center; margin: 0;">
+          <video style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" controls>
+            <source src="assets/me.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <figcaption style="margin-top: 12px; font-size: 0.85em; text-align: center;">Equivalent numerical dynamic rupture model showing delayed triggering  (Abdelmeguid and Rosakis, under prep 2025).</figcaption>
+        </figure>
+      </div>
 
-<section>
-    <h2>High Resolution Fault Zone Physics</h2>
-    <p>Through the development of FEBE we were able to model the evolution of fault zone with high resolution physics based on observations. This includes modeling fault zones with pre-existing, such as low velocity fault zones, and evolving damage, such as plasticity. By incorporating these physical mechanism we are able to better understand the interactions, or what we call coevolution, between surrounding fault zone and principal slip surfaces.  </p>
 
-    <p> In addition to developing fault zone structure, fault zones are commonly saturated with fluids. Currently in collaboration with Prof. Lapusta at Caltech, I am working on extending FEBE to incorporate fluid diffusion effects on sequence of earthquakes and aseismic slip. </p>
-</section>
+    <h3>Supershear Ruptures</h3>
+    <p>As indicated by recent observations earthquakes propagates along frictional interfaces at varying speeds. This can be due to different stressing conditions, or geometrical variations. From a seismic hazard prespective the generated ground excitation is highly dependent on the propagation speed, an effect known as directivity. There are two main domains of speeds at which ruptures can propagate. (A) Subshear where the rupture propagation speed is below the shear wave speed. Typically, below Rayleigh wave speed. (B) Supershear where the rupture propagation exceeds the shear wave speed of the surrounding bulk. Since shear wave propagation within the bulk is by definition limited by shear wave speed, when a rupture exceed shear wave speed the directivity effect is inherently different than a subshear rupture. We are interesting in understanding the ground motion characteristics of these two types of ruptures as well as the conditions that can lead to supershear ruptures.</p>
 
-<section>
-    <h2>Supershear Ruptures</h2>
-    <p>As indicated by recent observations earthquakes propagates along frictional interfaces at varying speeds. This can be due to different stressing conditions, or geometrical variations. From a seismic hazard prespective the generated ground excitation is highly dependent on the propagation speed, an effect known as directivity. There are two main domains of speeds at which ruptures can propagate. (A) Subshear where the rupture propagation speed is below the shear wave speed. Typically, below Rayleigh wave speed. (B) Supershear where the rupture propagation exceeds the shear wave speed of the surrounding bulk. Since shear wave propagation within the bulk is by definition limited by shear wave speed, when a rupture exceed shear wave speed the directivity effect is inherently different than a subshear rupture.</p>
-
+    <div style="display: flex; gap: 30px; justify-content: center; margin: 30px 0; align-items: flex-start;">
+      <figure style="flex: 1; text-align: center; margin: 0;">
+        <video style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" controls>
+          <source src="assets/subshear.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption style="margin-top: 12px; font-size: 0.85em; text-align: center;">subshear rupture.</figcaption>
+      </figure>
+      <figure style="flex: 1; text-align: center; margin: 0;">
+        <video style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" controls>
+          <source src="assets/supershear.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption style="margin-top: 12px; font-size: 0.85em; text-align: center;">supershear rupture.</figcaption>
+      </figure>
+    </div>
     
-    <p>
-    My work targets expanding upon our earlier understanding of ground motion characteristics of supershear ruptures to more complex tectonic setting accounting for material heterogenity and complex fault structures.
-    </p>
-    <p>
-    A second focus of my work on sueprshear earthquakes is to understand natural observations through the lens of this mechanicstic understanding. How can we distinguish between supershear and subshear ruptures from near-fault ground motion records? Is there clear signatures, do these signatures vary in the presence of material heterogenity?.
-    </p>
 
-    
-</section>
-
-
-<section>
-    <h2>Tsunamigensis</h2>
+    <h3>Tsunamigensis</h3>
     <p>Combining the computational models of dynamic rupture with nonlinear shallow water wave equation, we were able to understand the mechanisms by which a strike slip earthquake can induce a tsunami despite the limited vertical displacement.</p>
+    <div style="display: flex; gap: 30px; justify-content: center; margin: 30px 0; align-items: flex-start;">
+      <figure style="flex: 1; text-align: center; margin: 0;">
+        <video style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" controls>
+          <source src="assets/WaterAmp_2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption style="margin-top: 12px; font-size: 0.85em; text-align: center;">strike slip earthquake inducing a tsunami.</figcaption>
+      </figure>
+    </div>
 
+
+    <h2>Fluid Induced Instabilities</h2>
+    <div style="display: flex; align-items: flex-start; gap: 30px; margin: 30px 0;">
+      <div style="flex: 1; min-width: 220px;">
+        <p>We are experimentally studying the nucleation of fluid induced instabilities in fault zones. At Caltech's earthquake laboratory, I am using the experimental facility to study the nucleation of fluid induced instabilities in fault zones. We seek to understand the role of fault interface healing and different injection rates on the nucleation of instabilities that can lead to earthquakes. We are complementing the experiments with numerical modeling to understand the role of different parameters on the nucleation of instabilities. These experiments are critical for understanding the role of fluid in the nucleation of microseismicity that risk the deployment of human subsurface operations.</p>
+      </div>
+      <figure style="flex: 0 0 400px; margin: 0; text-align: center;">
+        <img src="assets/3DTK2_1_R2x9cY.mp4" alt="ML" style="width: 100%; max-width: 200px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: block; margin: 0 auto; transform: rotate(-0deg) scale(1.03);">
+      </figure>
+      
+    </div>
+
+    <!-- <h2>Fluid Induced Instabilities</h2>
+    <div style="display: flex; gap: 30px; justify-content: center; margin: 30px 0; align-items: flex-start;">
+      <figure style="flex: 1; text-align: center; margin: 0;">
+        <video style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" controls>
+          <source src="assets/3DTK2_1_R2x9cY.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption style="margin-top: 12px; font-size: 0.85em; text-align: center;">
+          
+        </figcaption>
+      </figure>
+    </div> -->
+
+    <h2>SciML for Geohazards</h2>
+    <div style="display: flex; align-items: flex-start; gap: 30px; margin: 30px 0;">
+      <figure style="flex: 0 0 600px; margin: 0; text-align: center;">
+        <img src="assets/fno_framework.png" alt="ML" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: block; margin: 0 auto; transform: rotate(-0deg) scale(1.03);">
+      </figure>
+      <div style="flex: 1; min-width: 220px;">
+        <p></p>Alot of the problems we aim to understand involve expansive parameter spaces that are intractable to explore with traditional methods. This is where machine learning comes in. We are developing machine learning models that can accelerate numerical simulations and provide opportunties for uncertainty quantification. </p>
+        <p></p>In our most recent work, we developed an FNO model to predict the entire slip rate evolution based only on initial shear stress, and frictional parameters with a speed up of 10000x relative to the fastest forward model.</p>
+        <p> We are currently exploring the use of FNOs to accelerate full sequences of earthquakes.</p>
+      </div>
+    </div>
 
 
 </section>
