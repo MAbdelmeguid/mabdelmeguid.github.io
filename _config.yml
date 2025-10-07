@@ -38,6 +38,9 @@ exclude:
   - Dockerfile
   - docker-compose.yml
   - 404.html
+  - vendor
+  - Gemfile
+  - Gemfile.lock
   
 # Pagination path
 
